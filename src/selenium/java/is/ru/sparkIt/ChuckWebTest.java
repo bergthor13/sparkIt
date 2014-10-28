@@ -28,7 +28,7 @@ public class ChuckWebTest {
         if(port == null) {
             port = "4567";
         }
-        baseUrl = "http://localhost:" + port;
+        baseUrl = "https://sparkithugb.herokuapp.com/";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
